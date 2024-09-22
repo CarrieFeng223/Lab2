@@ -10,8 +10,6 @@ if (!isset($_SESSION['books'])) {
     $_SESSION['books'] = [];
 }
 
-$message = "";
-
 //check if the formed submitted
 if (isset($_POST['submit'])) {
     // Capture the form input
